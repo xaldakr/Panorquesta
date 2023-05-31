@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  </head>
+  <body >
+    <div class="container mt-5 border shadow-sm">
+      <h1 class="text-center">Completar Orden</h1>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h5><i class="bi bi-1-circle-fill"></i> Tipo de Entrega y Direccion</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="row justify-content-center">
+                 <div class="col-md">
+                  <div class="card mb-2">
+                    <div class="card-header" style="background-color: #f4845f;">
+                      <h6 class="text-center" style="color: white;"><i class="bi bi-pencil-fill"></i> A Domicilio</h6>
+                    </div>
+                    <div class="card-body" style="background-color: white;">
+                      <h1 style="font-size: 100px;" class="text-center"><i class="bi bi-truck"></i></h1>
+                      <div class="text-center">
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #F7B267; color: white;">Elegir Ubicacion</a>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Ubicacion</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row justify-content-center">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d123886.44936037643!2d-89.56660906680908!3d13.991219274214517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e62036825a69%3A0xec68b49f92513893!2sUNICAES%20Santa%20Ana!5e0!3m2!1ses!2ssv!4v1685200289023!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                 </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F7B267; color: white;">Confirmar Direccion</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="col-md">
+                  <div class="card mb-2">
+                    <div class="card-header" style="background-color: #f4845f;">
+                      <h6 class="text-center" style="color: white;"><i class="bi bi-pencil-fill"></i> Selecciona una tienda</h6>
+                    </div>
+                    <div class="card-body">
+                      <h1 style="font-size: 100px;" class="text-center"><i class="bi bi-house"></i></h1>
+                      <div class="text-center">
+                        <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="background-color: #F7B267; color: white;">Elegir Sucursal</a>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row justify-content-center">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d123886.44936037643!2d-89.56660906680908!3d13.991219274214517!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e62036825a69%3A0xec68b49f92513893!2sUNICAES%20Santa%20Ana!5e0!3m2!1ses!2ssv!4v1685200289023!5m2!1ses!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                 </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F7B267; color: white;">Confirmar Tienda</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h5><i class="bi bi-2-circle-fill"></i> Información de contacto</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <form>
+                <div class="row justify-content-start">
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">E-mail</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      <p>Crear Usuario automaticamente</p>
+                    </label>
+                  </div>
+                  <hr>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Confirmar Contraseña</label>
+                    <input type="password" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <a href="#" class="btn btn-secondary mx-1">Cancelar</a>  
+                  <a href="#" class="btn" style="background-color: #F7B267; color: white;">Continuar</a>  
+                </div>              
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h5><i class="bi bi-3-circle-fill"></i> Indicaciones y forma de pago</h5>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <h6>Monto de Pago: ...</h6>
+              <div class="d-lg-flex mt-3">
+                <div class="image-option" data-value="option1">
+                  <img src="4341293.webp" alt="Opción 1" style="max-width: 200px;">
+                </div>
+                <div class="image-option" data-value="option2">
+                  <img src="credit.png" alt="Opción 2" style="max-width: 200px;">
+                </div>
+                <style>
+                  .image-option {
+                    display: inline-block;
+                    cursor: pointer;
+                    border: 2px solid transparent;
+                    padding: 5px;
+                  }
+                  
+                  .image-option.selected {
+                    border-color: #F7B267; /* Color del borde cuando está seleccionado */
+                  }
+                </style>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+                <script>
+                  $(document).ready(function() {
+                    $('.image-option').click(function() {
+                      // Deseleccionar todas las opciones
+                      $('.image-option').removeClass('selected');
+                  
+                      // Seleccionar la opción clicada
+                      $(this).addClass('selected');
+                  
+                      // Obtener el valor de la opción seleccionada
+                      var selectedValue = $(this).data('value');
+                    });
+                  });                
+
+                </script>
+              </div>
+              <div class="d-flex mt-3">
+                <a href="#" class="btn btn-secondary mx-1">Cancelar</a>  
+                <a href="#" class="btn" style="background-color: #F7B267; color: white;">Continuar</a>  
+              </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
