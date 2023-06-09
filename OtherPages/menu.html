@@ -20,56 +20,74 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body style="background-color: #8d7c88">
-    <div class="container">
-      <div class="card" style="background-color: #f7b267">
-        <div class="card-header text-center">
-          <h4>Mis Productos</h4>
+    <div class="container mt-4">
+      <div
+        class="card border border-0 rounded-5"
+        style="background-color: #f7b267"
+      >
+        <div
+          class="card-header text-center text-white rounded-bottom-circle"
+          style="background-color: #3d0001"
+        >
+          <h1>Panetone Clásico</h1>
         </div>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 mt-1">
-            <div class="card h-100">
-              <img
-                class="card-img-top img-fluid"
-                src="../media/pan.jpg"
-                alt="Imagen"
-              />
+        <div
+          class="row justify-content-center align-items-center mx-0 px-0 my-3"
+        >
+          <div
+            class="card h-100 border border-0 mx-0 py-0"
+            style="background-color: #f7b267"
+          >
+            <div
+              class="row justify-content-center align-items-center g-2 mx-0 py-0"
+            >
+              <div class="col-md-6 col-12 mt-1">
+                <img
+                  class="card-img-top img-fluid rounded-end-pill"
+                  src="../media/pan.jpg"
+                  alt="Imagen"
+                  style="background-color: #f7b267"
+                />
+              </div>
+              <div class="col-md-6 col-12 mt-1 text-white">
+                <h3>
+                  Un pan clásico hecho de masa madre y moldeado por mano experta
+                  para mantener el sabor y aroma caracterìsticos.
+                </h3>
+                <h1>$10.50</h1>
+                <button
+                  class="btn btn-outline-danger btn-lg btn-color-agregar btn-no-hover text-white"
+                  style="background-color: #3d0001"
+                >
+                  Añadir a mi orden
+                  <i class="fas fa-shopping-cart ml-2" style="color: white"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row justify-content-center mt-3">
-          <div class="col card-margin">
-            <div class="card rounded" style="background-color: #f25c54">
-              <div class="image-container">
-                <img src="../media/canela.jpg" class="card-img-top" alt="..." />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">Decoracion con canela</h5>
-                <div class="d-flex justify-content-center mt-4">
-                  <button
-                    class="btn-outline-danger btn btn-primary btn-color-agregar btn-no-hover"
-                  >
-                    Agregar
-                    <i class="fas fa-plus ml-1" style="color: white"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col card-margin">
-            <div class="card rounded" style="background-color: #f25c54">
+        <div class="row justify-content-center m-3">
+          <div class="col-md-6 col-12 col-lg-4 card-margin my-3">
+            <div
+              class="card rounded rounded-top-circle"
+              style="background-color: #f25c54"
+            >
               <div class="image-container">
                 <img
-                  src="../media/chocolate.png"
-                  class="card-img-top"
+                  src="../media/canela.jpg"
+                  class="card-img-top img-fluid h-100"
                   alt="..."
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title text-center">Chocolate Extra</h5>
+                <h5 class="card-title text-center text-white">
+                  Agregar Canela
+                </h5>
                 <div class="d-flex justify-content-center mt-4">
                   <button
-                    class="btn btn-outline-danger btn-primary btn-color-agregar btn-no-hover"
+                    class="btn-outline-danger btn btn-primary btn-color-agregar btn-no-hover text-white"
+                    style="background-color: #3d0001"
                   >
                     Agregar
                     <i class="fas fa-plus ml-1" style="color: white"></i>
@@ -78,17 +96,53 @@
               </div>
             </div>
           </div>
-          <div class="col card-margin">
-            <div class="card rounded" style="background-color: #f25c54">
+          <div class="col-md-6 col-12 col-lg-4 card-margin my-3">
+            <div
+              class="card rounded rounded-top-circle"
+              style="background-color: #f25c54"
+            >
               <div class="image-container">
-                <img src="../media/pepsi.jpg" class="card-img-top" alt="..." />
+                <img
+                  src="../media/chocolate.png"
+                  class="card-img-top img-fluid h-100"
+                  alt="..."
+                />
               </div>
               <div class="card-body">
-                <h5 class="card-title text-center">Pepsi</h5>
+                <h5 class="card-title text-center text-white">
+                  Chocolate Extra
+                </h5>
+                <div class="d-flex justify-content-center mt-4">
+                  <button
+                    class="btn btn-outline-danger btn-primary btn-color-agregar btn-no-hover text-white"
+                    style="background-color: #3d0001"
+                  >
+                    Agregar
+                    <i class="fas fa-plus ml-1" style="color: white"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 col-lg-4 card-margin my-3">
+            <div
+              class="card rounded rounded-top-circle"
+              style="background-color: #f25c54"
+            >
+              <div class="image-container img">
+                <img
+                  src="../media/pepsi.png"
+                  class="card-img-top img-fluid h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center text-white">Pepsi</h5>
                 <div class="d-flex justify-content-center mt-4">
                   <div>
                     <button
-                      class="btn btn-outline-danger btn-primary btn-color-agregar btn-no-hover"
+                      class="btn btn-outline-danger btn-primary btn-color-agregar btn-no-hover text-white"
+                      style="background-color: #3d0001"
                     >
                       Agregar
                       <i class="fas fa-plus ml-1" style="color: white"></i>
@@ -109,17 +163,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center mt-4 mb-4">
-        <div class="col-md-6 text-center">
-          <button
-            class="btn btn-outline-danger btn-primary btn-lg btn-color-agregar btn-no-hover"
-          >
-            Añadir a mi orden
-            <i class="fas fa-shopping-cart ml-2" style="color: white"></i>
-          </button>
         </div>
       </div>
     </div>
