@@ -1,0 +1,32 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.image-container img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.btn-color-agregar {
+  background-color: #3d0001;
+  color: white;
+}
+
+.btn-color-cambiar {
+  background-color: #8d7c88;
+  color: white;
+}
+
+.btn-no-hover:hover,
+.btn-no-hover:focus {
+  background-color: #3d0001 !important;
+  border-color: #3d0001 !important;
+  box-shadow: none !important;
+}
+
+.card-margin {
+  margin: 15px;
+}
