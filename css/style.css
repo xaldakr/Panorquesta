@@ -30,3 +30,30 @@
 .card-margin {
   margin: 15px;
 }
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #F7B267;
+}
+
+.nav-pills .nav-link.active {
+  color: #3D0001;
+}
+
+.nav {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: #8D7C88;
+}
+
+.nav-link:hover {
+  color: #3D0001;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 325px;
+  --bs-offcanvas-bg: #8D7C88;
+  --bs-offcanvas-color: white;
+}
+
+.btn-secondary {
+  --bs-btn-bg: #F7B267;
+}
