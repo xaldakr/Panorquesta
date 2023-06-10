@@ -10,17 +10,13 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/51226aee0a.js" crossorigin="anonymous"></script>
     <style>
-    .noUnderline {
-        text-decoration: none !important;        
-    }
+        .noUnderline {
+            text-decoration: none !important;
+        }
 
-    .containerfont {
-        font-size: 25px;
-    }
-    .redondo {
-    border-radius: 60%;
-    width: auto;
-    }
+        .containerfont {
+            font-size: 25px;
+        }
     </style>
 </head>
 
@@ -28,8 +24,8 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary mt-0 pt-0">
         <div class="container-fluid" style="background-color: #F7B267; ">
             <!--IMAGEN DE LOGO-->
-            <a class="navbar-brand" href="#"><img src="./media/Panorquesta.png" alt="" class="img-fluid"
-                    width="70px" height="200px"><br>
+            <a class="navbar-brand" href="#"><img src="./media/Panorquesta.png" alt="" class="img-fluid" width="70px"
+                    height="200px"><br>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -38,53 +34,59 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="containerfont">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active m-lg-2" aria-current="page" href="#"><i class="fa-brands fa-facebook"
-                                    style="color: #3d0001;"></i></a>
+                    <ul class="me-auto mb-2 mb-lg-0 list-inline d-flex">
+                        <li class="list-inline-item">
+                            <a class="nav-link active m-lg-2 list-inline-item" aria-current="page" href="#"><i
+                                    class="fa-brands fa-facebook" style="color: #3d0001;"></i></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link m-lg-2" href="#"><i class="fa-brands fa-instagram"
+                        <li class="list-inline-item">
+                            <a class="nav-link m-lg-2 list-inline-item" href="#"><i class="fa-brands fa-instagram"
                                     style="color: #3d0001;"></i></i></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active m-lg-2" aria-current="page" href="#"><i class="fab fa-twitter"
+                        <li class="list-inline-item">
+                            <a class="nav-link active m-lg-2 list-inline-item" aria-current="page" href="#"><i class="fab fa-twitter"
                                     style="color: #3d0001;">
                                 </i></a>
                         </li>
                     </ul>
-                    
+
                 </div>
-                <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
-                    <div class="navbar nav">
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end m-lg-3">
-                            <button class="btn" style="background-color: #3d0001" type="button"><i
-                                    class="fa-sharp fa-solid fa-circle-user" style="color: white"></i>
-                                    <a href="" class="noUnderline" style="color: white">Iniciar Sesión</a>
-                            </button>
-                        </div>
-                        <img src="./media/pInicioSesión.png" alt="" class="img-fluid"
-                            width="25px" height="70px">
+            </div>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+                <div class="navbar nav">
+                    <img src="./media/pInicioSesión.png" alt="" class="img-fluid" width="25px" height="70px">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end m-lg-3">
+                        <button class="btn" style="background-color: #3d0001" type="button"><i
+                                class="fa-sharp fa-solid fa-circle-user" style="color: white"></i>
+                            <a href="" class="noUnderline" style="color: white">Iniciar Sesión</a>
+                        </button>
+                        <i class="fa-sharp fa-2x fa-solid fa-cart-shopping me-4" style="color: #3d0001;"></i>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
                 </div>
             </div>
         </div>
     </nav>
     <!--CARRUSEL CON IMAGENES-->
     <div class="container">
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./media/ofertas.png" class="d-block w-100 img-fluid" alt="Imagen 1" width="90px"
                         height="300px">
                 </div>
                 <div class="carousel-item">
-                    <img src="./media/ofertas2.png" class="d-block w-100 img-fluid" alt="Imagen 2"
-                        width="90px" height="300px">
+                    <img src="./media/ofertas2.png" class="d-block w-100 img-fluid" alt="Imagen 2" width="90px"
+                        height="300px">
                 </div>
                 <div class="carousel-item">
-                    <img src="./media/ofertas3.png" class="d-block w-100 img-fluid" alt="Imagen 3"
-                        width="90px" height="300px">
+                    <img src="./media/ofertas3.png" class="d-block w-100 img-fluid" alt="Imagen 3" width="90px"
+                        height="300px">
                 </div>
             </div>
 
@@ -108,45 +110,43 @@
     </div>
     <!-- OPCIONES -->
     <div class="container-fluid p-5" style="background-image: url(./media/fondo.webp);">
-        <div class="row row-cols-1 row-cols-md-3 g-3">
-          <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
-            <h2>Promociones</h2>
-                <a href="#"><img src="./media/promociones.jpg" alt="" width="50%" height="70%"></a>
-          </div>
-          <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
-            <h2>Especial</h2>
-            <a href="#"><img src="./media/especialC.jpg" alt="" width="50%" height="70%"></a>
-          </div>
-          <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
-            <h2>Hecho en casa</h2>
-            <a href="#"><img src="./media/hechoenCasa.jpg" alt="" width="50%" height="70%"></a>
-          </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Promociones</h2>
+                    <a href="#"><img src="./media/promociones.jpg" alt="" width="50%" height="70%"></a>
+                </div>
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Especial</h2>
+                    <a href="#"><img src="./media/especialC.jpg" alt="" width="50%" height="70%"></a>
+                </div>
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Hecho en casa</h2>
+                    <a href="#"><img src="./media/hechoenCasa.jpg" alt="" width="50%" height="70%"></a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Decoración</h2>
+                    <a href="#"><img src="./media/decoracion.png" alt="" width="50%" height="70%"></a>
+                </div>
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Venta por mayor</h2>
+                    <a href="#"><img src="./media/ventaMayor.png" alt="" width="50%" height="70%"></a>
+                </div>
+                <div class="col-sm-4 text-center shadow-lg p-5 mb-5 bg-body rounded-lg rounded-pill">
+                    <h2>Sin gluten</h2>
+                    <a href="#"><img src="./media/sinGluten.png" alt="" width="50%" height="70%"></a>
+                </div>
+            </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-sm-4 text-center shadow-lg p-3 mb-5 bg-body rounded-lg rounded-pill">
-                <h2>Decoración</h2>
-                <a href="#"><img src="./media/decoracion.png" alt="" width="50%" height="70%"></a>
-            </div>
-            <div class="col-sm-4 text-center shadow-lg p-3 mb-5 bg-body rounded-lg rounded-pill">
-                <h2>Venta por mayor</h2>
-                <a href="#"><img src="./media/ventaMayor.png" alt="" width="50%" height="70%"></a>
-            </div>
-            <div class="col-sm-4 text-center shadow-lg p-3 mb-5 bg-body rounded-lg rounded-pill">
-                <h2>Sin gluten</h2>
-                <a href="#"><img src="./media/sinGluten.png" alt="" width="50%" height="70%"></a>
-            </div>
-          </div>
-
-          <div>
-            
-          </div>
-      </div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="text-center text-white" style="background-color:  #3d0001">
         <h6 class="p-5">Si deseas ordenar a través de nuestro call center llama al (503) 2040-0000 <br>
         </h6>
-        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <h6>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.
         </h6>
         <div class="container">
             <section class="mt-5">
@@ -166,7 +166,8 @@
                     <div class="col-md-2">
                         <h6 class="text-uppercase font-weight-bold">
                             <a href="#!" class="text-white noUnderline">Politicas</a><br>
-                            <h6 href="#" class="noUnderline align-items-start" style="color: #F7B267;">Términos de uso</h6>
+                            <h6 href="#" class="noUnderline align-items-start" style="color: #F7B267;">Términos de uso
+                            </h6>
                             <h6 href="#" class="noUnderline" style="color: #F7B267;">Politicas de privacidad</h6>
                         </h6>
                     </div>
@@ -190,7 +191,7 @@
                     <i class="fab fa-facebook"></i>
                 </a>
                 <a href="" class="text-white me-4">
-                    <i class="fab fa-instagram fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
                 </a>
                 <a href="" class="text-white me-4">
                     <i class="fab fa-twitter"></i>
